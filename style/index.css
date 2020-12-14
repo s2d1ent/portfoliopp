@@ -1,0 +1,160 @@
+
+/* СБРОС */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: 0;
+}
+body {
+	max-width: 6000px;
+	width: 100%;
+	font-family: "Rubik", Helvetica, Arial,sans-serif;
+
+}
+header {
+	width: 100%;
+}
+a {
+	text-decoration: none;
+}
+ul {
+	list-style: none;
+}
+
+/* HEADER  */
+#header {
+	height: 40px;
+	background-color: #EBEBEB;
+	display: flex;
+	align-items: center;
+}
+.logo {
+	width: 40px;
+	height: 40px;
+	margin-left: 50px;
+}
+#nav {
+	width: 800px;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: ;
+	margin:0 auto;
+}
+.nav-a {
+	font-size: 18px;
+	font-weight: 400;
+	color: black;
+	padding-right: 50px;
+	padding-left: 50px;
+}
+.signin {
+	margin-right: 25px;	
+}
+.signin__link {
+	color: black;
+	font-size: 18px;
+	font-weight: 500;
+}
+/* ABOUT */
+.about {
+	width: 100%;
+}
+.about__container {
+	background-color: #F5F5F5;
+	width: 1200px;
+	height: 400px;
+	margin: 0 auto;
+	display: flex;
+}
+.about__left {
+	width: 300px;
+	height: 100%;
+	background-color: ;
+}
+.about__container-img {
+	width: 250px;
+	height: 250px;
+	border: 2px solid black;
+	border-radius: 50%;
+	margin-top: 40px;
+	margin-left: 30px;
+}
+.about__container-name {
+	margin-left: 110px;
+}
+.about__container-subtitle {
+	margin-left: 125px;
+	font-size: 16px;
+	font-weight: 300;
+}
+.about__info-rel {
+	margin-top: 80px;
+	margin-left: 50px;
+}
+.about__right {
+	margin-top: 80px;
+	margin-left: 20px;
+}
+.about__right-title{
+	font-weight: 500;
+	margin-left: 50px;
+}
+.about__contacts {
+	margin-top: 20px;
+	margin-left: 50px;
+}
+.about__contacts-li {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 30px;
+	color: black;
+}
+.about__info {
+	margin-top: 80px;
+	margin-left: 50px;
+}
+.about__info-title {
+	font-weight: 500;
+ 	margin-left: 20px;	
+}
+.about__info-title:nth-child(3){
+	margin-top: 20px;
+}
+.about__info-title:nth-child(5){
+	margin-top: 20px;
+}
+.about__info-subtitle {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 30px;
+	color: black;
+	margin-top: 20px;
+ 	margin-left: 20px;
+}
+/* PROJECT */
+.proj {
+	width: 100%;
+}
+.proj__container {
+	width: 1400px;
+	background-color: ;
+	margin: 0 auto;
+	margin-top: 200px;
+}
+.proj__container-title {
+	margin: 0 auto;
+	text-align: center;
+	font-weight: 700;
+	font-size: 30px;
+	color: black;
+}
+.proj__table {
+	width: 1400px;
+	height: 200px;
+	margin: 0 auto;
+	background-color:#2E5C5C ;
+	margin-top: 100px;
+}
