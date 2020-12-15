@@ -1,4 +1,4 @@
-@media screen and (max-width: 6000px) {
+@media screen and (min-width: 320px) {
 /* СБРОС */
 
 * {
@@ -23,21 +23,19 @@ ul {
 }
 
 /* HEADER  */
-#header {
-	height: 40px;
+#header,.logo,.nav-a,#nav,.signin {
+	display: none;
+}
+#header__mobile {
+	height: 100px;
 	background-color: #EBEBEB;
 	display: flex;
 	align-items: center;
 }
-#header__mobile,.logo__mobile,.nav-a__mobile,#nav__mobile,.signin__mobile {
+.burger__menu {
 	display: none;
 }
-.logo {
-	width: 40px;
-	height: 40px;
-	margin-left: 50px;
-}
-#nav {
+#nav__mobile {
 	width: 800px;
 	height: 100%;
 	display: flex;
@@ -46,20 +44,32 @@ ul {
 	background-color: ;
 	margin:0 auto;
 }
-.nav-a {
+.nav-a__mobile {
 	font-size: 18px;
 	font-weight: 400;
 	color: black;
 	padding-right: 50px;
 	padding-left: 50px;
 }
-.signin {
+.signin__mobile {
 	margin-right: 25px;	
 }
-.signin__link {
+.signin__link__mobile {
 	color: black;
 	font-size: 18px;
 	font-weight: 500;
+}
+.burger__btn {
+	display: flex;
+	flex-direction: column;
+	height: 100px;
+	justify-content: space-around;
+	background-color: ;
+}
+.burger__line {
+	width: 100px;
+	height: 10px;
+	background-color: #2E5C5C;
 }
 /* ABOUT */
 .about {
