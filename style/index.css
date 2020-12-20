@@ -1,4 +1,4 @@
-@media screen and (max-width: 6000px) {
+@media screen and (min-width: 1024px) {
 /* СБРОС */
 
 * {
@@ -7,10 +7,9 @@
 	box-sizing: 0;
 }
 body {
-	max-width: 6000px;
 	width: 100%;
 	font-family: "Rubik", Helvetica, Arial,sans-serif;
-
+	min-width: 1536px;
 }
 header {
 	width: 100%;
@@ -28,9 +27,6 @@ ul {
 	background-color: #EBEBEB;
 	display: flex;
 	align-items: center;
-}
-#header__mobile,.logo__mobile,.nav-a__mobile,#nav__mobile,.signin__mobile {
-	display: none;
 }
 .logo {
 	width: 40px;
@@ -60,6 +56,12 @@ ul {
 	color: black;
 	font-size: 18px;
 	font-weight: 500;
+}
+.mobile__menu {
+	display: none;
+}
+#lang {
+	cursor: pointer;
 }
 /* ABOUT */
 .about {
@@ -275,4 +277,4 @@ ul {
 	color: black;
 }
 
-} /* MEADIE END */
+} /* media end */

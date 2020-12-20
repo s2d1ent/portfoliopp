@@ -1,4 +1,4 @@
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 1023px) {
 /* СБРОС */
 
 * {
@@ -7,10 +7,10 @@
 	box-sizing: 0;
 }
 body {
-	max-width: 6000px;
+	max-width: 5000px;
 	width: 100%;
 	font-family: "Rubik", Helvetica, Arial,sans-serif;
-
+	background-color: ;
 }
 header {
 	width: 100%;
@@ -26,50 +26,21 @@ ul {
 #header,.logo,.nav-a,#nav,.signin {
 	display: none;
 }
-#header__mobile {
+.mobile__menu {
+	width: 100%;
 	height: 200px;
-	background-color: #EBEBEB;
-	display: fixed;
-	align-items: center;
+	
 }
-.burger__menu {
-	display: none;
-}
-#nav__mobile {
-	width: 800px;
-	height: 100%;
+.mobile__menu-container {
+	width: 100%;
 	display: flex;
-	justify-content: center;
 	align-items: center;
-	background-color: ;
-	margin:0 auto;
-}
-.nav-a__mobile {
-	font-size: 18px;
-	font-weight: 400;
-	color: black;
-	padding-right: 50px;
-	padding-left: 50px;
-}
-.signin__mobile {
-	margin-right: 25px;	
-}
-.signin__link__mobile {
-	color: black;
-	font-size: 18px;
-	font-weight: 500;
-}
-.burger__btn {
-	display: flex;
-	flex-direction: column;
-	height: 100%;
 	justify-content: space-around;
-	background-color: ;
+	background-color: #EBEBEB;
 }
-.burger__line {
-	width: 150px;
-	height: 50px;
-	background-color: #2E5C5C;
+.mobile__menu-img {
+	width: 220px;
+	height: 220px;
 }
 /* ABOUT */
 .about {
@@ -77,61 +48,71 @@ ul {
 }
 .about__container {
 	background-color: #F5F5F5;
-	width: 1200px;
-	height: 400px;
+	width: 100%;
+	height: 800px;
 	margin: 0 auto;
-	display: flex;
 }
 .about__left {
-	width: 300px;
+	width: 100%;
 	height: 100%;
 	background-color: ;
 }
 .about__container-img {
-	width: 250px;
-	height: 250px;
+	width: 500px;
+	height: 500px;
 	border: 2px solid black;
 	border-radius: 50%;
-	margin-top: 40px;
-	margin-left: 30px;
+	margin: 0 auto;
+	display: block;
 }
 .about__container-name {
-	margin-left: 110px;
+	margin:0 auto;
+	display: block;
+	text-align: center;
+	font-weight: 700;
+	font-size: 44px;
 }
 .about__container-subtitle {
-	margin-left: 125px;
-	font-size: 16px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 30px;
 	font-weight: 300;
 }
 .about__info-rel {
 	margin-top: 80px;
 	margin-left: 50px;
+	display: none;
 }
 .about__right {
-	margin-top: 80px;
+	display: none;
 	margin-left: 20px;
 }
 .about__right-title{
 	font-weight: 500;
 	margin-left: 50px;
+	display: none;
 }
 .about__contacts {
 	margin-top: 20px;
 	margin-left: 50px;
+	display: none;
 }
 .about__contacts-li {
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 30px;
 	color: black;
+	display: none;
 }
 .about__info {
 	margin-top: 80px;
 	margin-left: 50px;
+	display: none;
 }
 .about__info-title {
 	font-weight: 500;
  	margin-left: 20px;	
+ 	display: none;
 }
 .about__info-title:nth-child(3){
 	margin-top: 20px;
@@ -140,6 +121,7 @@ ul {
 	margin-top: 20px;
 }
 .about__info-subtitle {
+	display: none;
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 30px;
@@ -150,86 +132,88 @@ ul {
 /* PROJECT */
 .proj {
 	width: 100%;
+	background-color: ;
 }
 .proj__container {
-	width: 1400px;
+	width: 100%;
 	background-color: ;
 	margin: 0 auto;
-	margin-top: 200px;
+	margin-top: 100px;
 }
 .proj__container-title {
 	margin: 0 auto;
 	text-align: center;
 	font-weight: 700;
-	font-size: 30px;
+	font-size: 56px;
 	color: black;
 }
 .proj__table {
-	width: 1400px;
+	width: 100%;
 	height: 300px;
 	margin: 0 auto;
 	background-color: ;
-	margin-top: 200px;
-	perspective: 400px;
-	display: flex;
+	margin-top: 200px;	
 }
 .proj__table-img {
-	width: 500px;
-	height: 300px;
-	transform: rotate3d(5,10,-5,5deg);
-	border-radius: 10px;
-	box-shadow: -20px 25px 0px 0px rgba(176, 176, 176, 0.7);
+	display: block;
+	margin: 0 auto;
+	width: 80%;
+	border-radius: 15px;
+	box-shadow: 0px 5px 0px 0px rgba(176, 176, 176, 0.7);
 }
 .proj__table-right {
-	width: 850px;
-	height: 300px;
-	margin-left: auto;
+	margin: 0 auto;
+	width: 100%;
 	background-color: ;
 }
 .proj__table-title {
 	margin: 0 auto;
 	text-align: center;
 	font-weight: 700;
-	line-height: 30px;
+	line-height: 20px;
+	font-size: 40px;
 	color: black;
+	margin-top: 100px;
 }
 .proj__table-subtitle {
 	color: black;
-	font-size: 18px;
+	font-size: 24px;
 	font-weight: 400;
 	line-height: 30px;
+	width: 60%;
+	text-align: center;
+	margin: 0 auto;
 }
 .proj__table-subtitle:nth-child(2) {
 	margin-top:20px;
 }
 .proj__table-link {
 	color: black;
-	font-size: 18px;
+	font-size: 24px;
+	margin: 0 auto;
 	margin-top: 50px;
-	margin-left: 345px;
+	text-align: center;
 }
 /* 2 НАБОР*/
 .proj__table_two {
-	width: 1400px;
+	width: 100%;
 	height: 300px;
 	margin: 0 auto;
 	background-color: ;
-	margin-top: 200px;
-	perspective: 400px;
+	margin-top: 1100px;	
 	display: flex;
+	flex-direction: column-reverse;
 }
 .proj__table_two-img {
-	width: 500px;
-	height: 300px;
-	transform: rotate3d(5,-10,5,5deg);
-	border-radius: 10px;
-	box-shadow: 20px 25px 0px 0px rgba(176, 176, 176, 0.7);
-	margin-left: 150px;
+	display: block;
+	margin: 0 auto;
+	width: 80%;
+	border-radius: 15px;
+	box-shadow: 0px 5px 0px 0px rgba(176, 176, 176, 0.7);
 }
 .proj__table_two-left {
-	width: 900px;
-	height: 300px;
 	margin: 0 auto;
+		width: 100%;
 	background-color: ;
 }
 .proj__table-subtitle:nth-child(2) {
@@ -237,9 +221,10 @@ ul {
 }
 .proj__table_two-link {
 	color: black;
-	font-size: 18px;
+	font-size: 24px;
+	margin: 0 auto;
 	margin-top: 50px;
-	
+	text-align: center;
 }
 .proj__table-subtitle-a {
 	text-decoration: underline;
@@ -250,39 +235,42 @@ ul {
 }
 .proj__table-link-t {
 	color: black;
-	font-size: 18px;
+	font-size: 24px;
+	margin: 0 auto;
 	margin-top: 50px;
-	margin-left: 280px;
+	text-align: center;
 }
 
 /* FOOTER */
 .footer {
-	margin-top: 200px;
-	width: 100%;
-	height: 300px;
+	margin-top: 700px;
+	width: 100%;r
 	background-color: #F5F5F5;
 }
 .footer__container {
-	width: 1000px;
+	width: 100%;
 	margin: 0 auto;
 	display: flex;
-	background-color: ;
+	flex-direction: column;
+	background-color: #F5F5F5;
+	align-items: center;
 }
 .footer__container-ul {
 	background-color: ;
 	margin:0 auto;
 }
 .footer__container-li_h {
-	font-size: 22px;
+	font-size: 34px;
 	font-weight: 500;
-	line-height: 30px;
+	line-height: 50px;
 	padding-top: 50px;
 }
 .footer__container-li {
-	font-size: 18px;
+	font-size: 28px;
 	font-weight: 400;
-	line-height: 30px;
+	line-height: 50px;
 	color: black;
 }
 
-} /* MEADIE END */
+}/*  MEDIA END */
+

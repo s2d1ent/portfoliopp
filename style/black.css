@@ -1,0 +1,13 @@
+#body,.form__btn{
+	background-color: #2b2b2b;
+}
+
+#header,.send__container,.send__container-text,.about__container,.footer__container,.footer,#color,#lang_eng {
+	background-color: #262626;
+}
+.about__container-img {
+	border: 2px solid white;
+}
+.nav-a,.footer__container-li_h,.footer__container-li,.send__container-subtitle,.title,.subtitle,.send__container-title,#color,#lang_eng,.projNameOne,.proj__table-subtitle-a,.proj__container-title,.proj__table-title,.docdlc3,.proj__table-link-t,.projDescThree,.projDescTwo,.dlcDescTwo,.proj__table_two-link,.dlcDescThree,.projNameTwo,.projNameThree,.proj__table-subtitle,.proj__table-subtitle,.proj__table-link,.about__container-name,.about__container-subtitle,.about__info-title,.about__info-subtitle,.about__right-title,.about__contacts,.about__contacts-li {
+	color: white;
+}
